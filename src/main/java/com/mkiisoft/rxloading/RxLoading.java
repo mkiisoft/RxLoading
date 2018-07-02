@@ -114,6 +114,8 @@ public class RxLoading extends RelativeLayout {
                     drawable.setColorFilter(new PorterDuffColorFilter(Color.parseColor(color), PorterDuff.Mode.MULTIPLY));
                     setImageDrawable(drawable);
                 }
+                float opacity = attributes.getFloat(R.styleable.RxLoading_opacity, 1);
+                setOpacity(opacity);
             } finally {
                 attributes.recycle();
             }
@@ -144,6 +146,11 @@ public class RxLoading extends RelativeLayout {
         if ((orientation >= 0 && orientation <= 1) && rootView != null) {
             rootView.setOrientation(orientation);
         }
+    }
+
+    public void setOpacity(float opacity) {
+        rootView.setAlpha(opacity);
+        System.out.println("ALPHAAAAA: " + rootView.getAlpha());
     }
 
     public void setColor(int color) {

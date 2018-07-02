@@ -9,7 +9,8 @@ package com.mkiisoft.rxloading;
 public final class R {
     public static final class attr {
         public static int color = 0x7f040001;
-        public static int orientation = 0x7f040002;
+        public static int opacity = 0x7f040002;
+        public static int orientation = 0x7f040003;
     }
     public static final class drawable {
         public static int shape_loading = 0x7f090001;
@@ -31,8 +32,9 @@ public final class R {
         public static int loading = 0x7f150002;
     }
     public static final class styleable {
-        public static int[] RxLoading = { 0x7f040001, 0x7f040002 };
+        public static int[] RxLoading = { 0x7f040001, 0x7f040002, 0x7f040003 };
         public static int RxLoading_color = 0;
-        public static int RxLoading_orientation = 1;
+        public static int RxLoading_opacity = 1;
+        public static int RxLoading_orientation = 2;
     }
 }

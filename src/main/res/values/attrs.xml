@@ -6,5 +6,6 @@
             <enum name="vertical" value="1"/>
         </attr>
         <attr name="color" format="color"/>
+        <attr name="opacity" format="float"/>
     </declare-styleable>
 </resources>
