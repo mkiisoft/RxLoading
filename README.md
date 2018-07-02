@@ -30,6 +30,7 @@ _______________
 _______________
 
 * Fully Customizable
+* Change opacity
 * Change loading color
 * Change background color
 * Change loading orientation
