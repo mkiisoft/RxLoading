@@ -1,4 +1,39 @@
+apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'com.android.library'
+
+buildscript {
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.3'
+        classpath 'com.novoda:bintray-release:0.8.0'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+publish {
+
+    def groupProjectID = 'com.mariano.zorrilla'
+    def artifactProjectID = 'rxloading'
+    def publishVersionID = '1.0'
+
+    userOrg = 'MkiiSoft'
+    repoName = 'RxLoading'
+    groupId = groupProjectID
+    artifactId = artifactProjectID
+    publishVersion = publishVersionID
+    desc = 'Material Design Loading Screen using RxJava2'
+    website = 'https://github.com/mkiisoft/RxLoading'
+}
 
 android {
     compileSdkVersion 27
@@ -18,7 +53,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
 }
 
 dependencies {
