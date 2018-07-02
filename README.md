@@ -4,7 +4,7 @@ _______________
 
 Loading screen using RxJava with full customization using colors and orientations.
 
-[RxLoading](https://image.ibb.co/ktepbd/Rx_Loading.gif)
+[![RxLoading](https://image.ibb.co/ktepbd/Rx_Loading.gif)](https://github.com/mkiisoft/RxLoading)
 
 # Install
 _______________
