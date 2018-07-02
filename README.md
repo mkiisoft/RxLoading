@@ -4,7 +4,7 @@ _______________
 
 Loading screen using RxJava with full customization using colors and orientations.
 
-[![Download Joke Generator](https://i.imgur.com/J8YgPHc.png)](https://github.com/mkiisoft/JokeGenerator/raw/master/paidFlavor/release/app-paidFlavor-release.apk "Download Joke Generator")
+[![RxLoading](https://media.giphy.com/media/7SEKRze2AILAUNDA9z/giphy.gif)]("RxLoading")
 
 # Install
 _______________
