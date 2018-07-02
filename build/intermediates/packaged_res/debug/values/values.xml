@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RxLoading"><attr format="enum" name="orientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr><attr format="color" name="color"/></declare-styleable>
+    <string name="app_name">RxLoading</string>
+    <string name="loading">loading</string>
+</resources>

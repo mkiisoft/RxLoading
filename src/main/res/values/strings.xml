@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RxLoading</string>
+    <string name="loading">loading</string>
+</resources>
