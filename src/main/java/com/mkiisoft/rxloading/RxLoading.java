@@ -150,7 +150,6 @@ public class RxLoading extends RelativeLayout {
 
     public void setOpacity(float opacity) {
         rootView.setAlpha(opacity);
-        System.out.println("ALPHAAAAA: " + rootView.getAlpha());
     }
 
     public void setColor(int color) {
